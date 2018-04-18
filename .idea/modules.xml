@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/client.iml" filepath="$PROJECT_DIR$/client/client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/learn_hessian.iml" filepath="$PROJECT_DIR$/learn_hessian.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webserver/webserver.iml" filepath="$PROJECT_DIR$/webserver/webserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webserver_spring/webserver_spring.iml" filepath="$PROJECT_DIR$/webserver_spring/webserver_spring.iml" />
+    </modules>
+  </component>
+</project>

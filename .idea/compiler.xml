@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="api" />
+        <module name="client" />
+        <module name="webserver" />
+        <module name="webserver_spring" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="api" target="1.5" />
+      <module name="client" target="1.7" />
+      <module name="learn_hessian" target="1.5" />
+      <module name="webserver" target="1.7" />
+      <module name="webserver_spring" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

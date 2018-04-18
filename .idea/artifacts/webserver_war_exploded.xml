@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webserver:war exploded">
+    <output-path>$PROJECT_DIR$/webserver/target/web-server</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webserver" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="api-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="api" />
+          </element>
+          <element id="library" level="project" name="Maven: org.projectlombok:lombok:1.16.10" />
+          <element id="library" level="project" name="Maven: org.apache.commons:commons-lang3:3.7" />
+          <element id="library" level="project" name="Maven: com.caucho:hessian:4.0.51" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/webserver/target/web-server/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="webserver/web/Web" />
+    </root>
+  </artifact>
+</component>
