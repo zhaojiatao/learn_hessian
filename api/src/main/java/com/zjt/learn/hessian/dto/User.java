@@ -1,4 +1,4 @@
-package com.zjt.learn.hession.dto;
+package com.zjt.learn.hessian.dto;
 
 import lombok.EqualsAndHashCode;
 import lombok.Getter;

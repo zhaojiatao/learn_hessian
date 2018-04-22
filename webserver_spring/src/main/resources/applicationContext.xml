@@ -5,10 +5,10 @@
     http://www.springframework.org/schema/beans/spring-beans-4.1.xsd"
        default-lazy-init="true">
 
-    <bean id = "getuserService" class="com.zjt.learn.hession.api.impl.GetUserInfoImpl"/>
+    <bean id = "getuserService" class="com.zjt.learn.hessian.api.impl.GetUserInfoImpl"/>
 
     <bean name="/getuserHessianService" class="org.springframework.remoting.caucho.HessianServiceExporter">
         <property name="service" ref="getuserService"/>
-        <property name="serviceInterface" value="com.zjt.learn.hession.api.GetUserInfo"/>
+        <property name="serviceInterface" value="com.zjt.learn.hessian.api.GetUserInfo"/>
     </bean>
 </beans>

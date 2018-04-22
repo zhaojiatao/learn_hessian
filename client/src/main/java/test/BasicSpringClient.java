@@ -1,6 +1,6 @@
 package test;
 
-import com.zjt.learn.hession.api.GetUserInfo;
+import com.zjt.learn.hessian.api.GetUserInfo;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 /**

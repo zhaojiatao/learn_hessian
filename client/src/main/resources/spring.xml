@@ -8,6 +8,6 @@
 
     <bean id="getuserService" class="org.springframework.remoting.caucho.HessianProxyFactoryBean">
         <property name="serviceUrl" value="http://localhost:8080/remote/getuserHessianService"/>
-        <property name="serviceInterface" value="com.zjt.learn.hession.api.GetUserInfo"/>
+        <property name="serviceInterface" value="com.zjt.learn.hessian.api.GetUserInfo"/>
     </bean>
 </beans>

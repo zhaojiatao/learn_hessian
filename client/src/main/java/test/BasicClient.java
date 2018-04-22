@@ -1,7 +1,7 @@
 package test;
 
 import com.caucho.hessian.client.HessianProxyFactory;
-import com.zjt.learn.hession.api.GetUserInfo;
+import com.zjt.learn.hessian.api.GetUserInfo;
 
 /**
  * Created by zhaojiatao@souche.com on 2018/4/17

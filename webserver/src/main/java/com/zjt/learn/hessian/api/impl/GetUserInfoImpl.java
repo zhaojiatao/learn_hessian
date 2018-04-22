@@ -1,15 +1,14 @@
-package com.zjt.learn.hession.api.impl;
+package com.zjt.learn.hessian.api.impl;
 
-import com.zjt.learn.hession.api.GetUserInfo;
-import com.zjt.learn.hession.dto.User;
+import com.zjt.learn.hessian.api.GetUserInfo;
+import com.zjt.learn.hessian.dto.User;
 import org.apache.commons.lang3.StringUtils;
 
 /**
  * Created by zhaojiatao@souche.com on 2018/4/17
  */
 public class GetUserInfoImpl implements GetUserInfo {
-
-
+    @Override
     public String getuserinfo(String id) {
 
         if(StringUtils.isNotBlank(id)){

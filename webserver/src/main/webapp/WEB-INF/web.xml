@@ -14,7 +14,7 @@
     <servlet-class>com.caucho.hessian.server.HessianServlet</servlet-class>
     <init-param>
       <param-name>service-class</param-name>
-      <param-value>com.zjt.learn.hession.api.impl.GetUserInfoImpl</param-value>
+      <param-value>com.zjt.learn.hessian.api.impl.GetUserInfoImpl</param-value>
     </init-param>
   </servlet>
 
